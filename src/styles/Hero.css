@@ -1,0 +1,101 @@
+.hero{
+    margin-top: 150px;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__img{
+    width: 604px;
+    height: 585.154px;
+    flex-shrink: 0;
+}
+.hero__btn{
+    width: 365px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    width: 100px;
+    height: 35px;
+    border-radius: 32px;
+    background: var(--neutral-white, #FFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.text2{
+    color: var(--neutral-white, #FFF);
+
+    /* Body / Small - Regular */
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.16px;
+    margin-left: 10px;
+}
+.hero__h1{
+    color: var(--neutral-white, #FFF);
+    /* Heading / H1 */
+    font-family: Rubik;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 588px;
+}
+.hero__p{
+    color: var(--neutral-grey-5, #E0E0E0);
+
+    /* Body / Small - Regular */
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.16px;
+    width: 435px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.hero__btn2{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+
+    /* Body/Standard - Medium */
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    border-radius: 32px;
+    background: #3671E9;
+    display: inline-flex;
+    padding: 16px 16px 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: none;
+    cursor: pointer;
+}
+@media(max-width:376px){
+    .hero__wrapper{
+        flex-direction: column;
+    }
+    .hero__h1,.hero__p{
+        width: auto;
+    }
+    .hero__img{
+        width: 305px;
+        height: 385px;
+    }
+}

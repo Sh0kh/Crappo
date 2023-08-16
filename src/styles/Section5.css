@@ -1,0 +1,126 @@
+.trade{
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.trade h1{
+    color: var(--color-primary, #0D0D2B);
+    text-align: center;
+
+    /* Heading / H2 */
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 60px */
+    width: 741px;
+    margin: 0 auto;
+ }
+ .trade__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 50px;
+ }
+ .trade__card1{
+    border-radius: 16px;
+    background: var(--color-secondary, #2B076E);
+    backdrop-filter: blur(125px);
+ }
+ .trade__card1 img{
+    margin: 0 auto;
+    width: 80px;
+    display: block;
+    margin-top: 48px;
+ }
+ .trade__card1 h2{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* Heading / H3 */
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+ }
+ .trade__card1 p{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+
+    /* Body / Small - Regular */
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.16px;
+     width: 322px;
+     margin: 0 auto;
+     margin-bottom: 30px;
+ }
+ .trade__card1 button{
+    display: inline-flex;
+    padding: 16px 16px 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 32px;
+    background: var(--color-accent, #3671E9);
+    margin: 0 auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+
+    /* Body / Standard - Medium */
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    margin-bottom: 50px;
+ }
+ .trade__card img{
+    
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+ }
+ .trade__card h2{
+    color: var(--color-primary, #0D0D2B);
+    text-align: center;
+
+    /* Heading / H3 */
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 48px */
+    margin-bottom: 30px;
+ }
+ .trade__card p{
+    color: var(--neutral-grey-3, #828282);
+    text-align: center;
+
+    /* Body / Small - Regular */
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.16px;
+    width: 322px;
+    margin: 0 auto;
+ }
+ @media(max-width:376px){
+    .trade h1{
+        width: auto;
+    }
+    .trade__wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+ }
